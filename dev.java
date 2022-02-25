@@ -7,3 +7,4 @@ read username
 echo "please enter your pin"
 read -s pin
 echo "you have entered the correct pin"
+#incomplete
