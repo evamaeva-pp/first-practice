@@ -6,5 +6,12 @@ echo "Please enter your username"
 read username
 echo "please enter your pin"
 read -s pin
+if [ $pin -eq 0000 ]
+then
 echo "you have entered the correct pin"
-#incomplete
+echo "Welcome $username !"
+echo "Today's date is:"
+date
+else
+echo "you have entered the incorrect pin. Please try again."
+fi
