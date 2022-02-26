@@ -12,6 +12,7 @@ echo "you have entered the correct pin"
 echo "Welcome $username !"
 echo "Today's date is:"
 date
+echo "What would you like to do today?"
 else
 echo "you have entered the incorrect pin. Please try again."
 fi
